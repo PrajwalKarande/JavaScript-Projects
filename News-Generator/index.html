@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="getNews()">Generate News</button>
+    <script>
+        async function getNews(){
+            const API_KEY = "API_KEY_HERE"; // Replace with your actual API key
+
+            const response = await fetch("https://api.groq.com/openai/v1/chat/completions",{
+                method:"post",
+                headers:{
+                    "Content-Type": "application/json",
+                    Authorization: "Bearer "+API_KEY,
+                },
+                body: JSON.stringify({
+                    model: "llama-3.3-70b-versatile",
+                    messages: [
+                        {
+                            role: "user",
+                            content: "Generate news in div tag and CSS no need of html and body tag"
+                        },
+                    ],
+                }),
+            });
+            const body = await response.json();
+            console.log(body);
+            const child = document.createElement("div");
+            child.innerHTML = body.choices[0].message.content;
+            document.body.appendChild(child);
+        }
+    </script>
+</body>
+</html>
