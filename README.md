@@ -19,4 +19,4 @@ This repository serves as a learning log and portfolio for my journey with JavaS
 To run any of the projects locally, simply clone this repository:
 
 ```bash
-git clone [https://github.com/PrajwalKarande/JavaScript-Projects.git](https://github.com/PrajwalKarande/JavaScript-Projects.git)
+git clone https://github.com/PrajwalKarande/JavaScript-Projects.git
