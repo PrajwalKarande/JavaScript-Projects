@@ -4,7 +4,7 @@ Welcome to my **JavaScript-Projects** repository! This collection is a showcase 
 
 ## 📝 About The Repository
 
-This repository serves as a learning log and portfolio for my journey with JavaScript. Each project is a self-contained example of a specific concept or functionality, ranging from basic DOM manipulation to more advanced API integrations. I'll be adding new projects regularly, so feel free to explore!
+This repository serves as a learning log and portfolio for my journey with JavaScript. Each project is a self-contained example of a specific concept or functionality, ranging from basic DOM manipulation to more advanced API integrations. Feel free to explore!
 
 ## 📂 Projects
 
