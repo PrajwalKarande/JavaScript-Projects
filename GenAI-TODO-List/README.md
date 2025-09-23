@@ -20,4 +20,4 @@ You can add tasks manually like a regular to-do app, or you can describe your ac
 ###  Clone the repository
 ```bash
 git clone https://github.com/PrajwalKarande/JavaScript-Projects.git
-cd JavaScript-Projects/GenAI-TODO-List
+
