@@ -19,7 +19,8 @@ To get this project running locally, you'll need to get your own API key from Gr
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/PrajwalKarande/JavaScript-Projects.git](https://github.com/PrajwalKarande/JavaScript-Projects.git)
+    git clone https://github.com/PrajwalKarande/JavaScript-Projects.git
+    cd News-Generator
     ```
 
 2.  **Get a Groq API Key:**
