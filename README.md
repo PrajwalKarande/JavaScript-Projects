@@ -8,12 +8,11 @@ This repository serves as a learning log and portfolio for my journey with JavaS
 
 ## 📂 Projects
 
-Each project resides in its own dedicated folder. Inside each folder, you will find:
-
-* The project's source code (HTML, CSS, and JavaScript).
-* A dedicated `README.md` file with a detailed description, how to run the project, and a list of features.
-
-**Example Project:** One of the projects you'll find here is a **TODO List**. This is a simple application where a user can add tasks. A unique feature is the integration with **Groq AI**, allowing users to get task descriptions or suggestions based on their input.
+| Project | What it does / Key features |
+|---|---|
+| **GenAI-TODO-List** | A to-do list application where you can manually add tasks, mark them done, remove them, etc. It also has integration with a generative AI: you can ask the AI to add tasks or plan activities for you, based on a prompt you give. |
+| **Github-Agent** | (Insert description here) — For example: an agent built around GitHub’s API to automate something / retrieve info / script tasks related to GitHub. |
+| **News-Generator** | Generates news content based on user input / topics. For example, you might enter a topic and the app will create a short news-style piece about it. |
 
 ## 🚀 Getting Started
 
